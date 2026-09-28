@@ -1,0 +1,6 @@
+# Compose starter. Up: podman-compose up / docker compose up
+# Docs: https://compose-spec.io/
+services:
+  hello:
+    build: .
+    image: hello:local
